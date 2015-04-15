@@ -1,5 +1,8 @@
 # remood.js
 
+[![npm version](https://badge.fury.io/js/remood.svg)](http://badge.fury.io/js/remood)
+[![License](http://img.shields.io/:license-mit-blue.svg)](http://tonekk.mit-license.org)
+
 ## How it works
 
 #### You start by creating an app.
