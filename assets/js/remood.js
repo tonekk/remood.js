@@ -1,3 +1,15 @@
+var jQuery = require('jquery'),
+    io = require('socket.io-client'),
+    _ = {
+      each: require('amp-each'),
+      pluck: require('amp-pluck'),
+      select: require('amp-filter')
+    };
+
+if (window && window.$) {
+    jQuery = window.$;
+}
+
 (function($, io, _) {
 
   var socket = io();
@@ -94,4 +106,4 @@
       });
     }
   });
-})(window.jQuery, window.io, window._);
+})(jQuery, io, _);
