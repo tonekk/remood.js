@@ -1,5 +1,5 @@
 {
-  "name": "remood.js",
+  "name": "remood",
   "version": "0.1.0",
   "description": "Add remote-control features to your webapp",
   "main": "index.js",
